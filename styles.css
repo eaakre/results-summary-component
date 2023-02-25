@@ -100,7 +100,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     margin: .5em;
-    padding: .25em .25em .25em .75em;
+    padding: .75em;
     border-radius: 5px;
 }
 
@@ -148,7 +148,7 @@ button {
     color: var(--white);
     font-weight: 700;
     width: 100%;
-    padding: 10px 0;
+    padding: 1em 0;
     margin: 1.5em;
     border: none;
     border-radius: 20px;
