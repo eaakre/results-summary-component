@@ -104,6 +104,10 @@ h3 {
     border-radius: 5px;
 }
 
+.cat-score {
+    color: black;
+}
+
 .gray {
     color: var(--light-lavender);
 }
