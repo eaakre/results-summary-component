@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <div class="result">
+        <h2 class="gray">Your Result</h2>
+        <div class="circle">
+          <h1 id="main-score">76</h1>
+          <p class="gray">of 100</p>
+        </div>
+        <h2>Great</h2>
+        <p class="gray">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </section>
+    
+    <section>
+      <div class="summary">
+        <h2 class="title">Summary</h2>
+        <div class="categories red">
+          <img src="./assets/images/icon-reaction.svg" alt="">
+          <h3 class="cat">Reaction</h3>
+          <div class="score-container">
+            <h3 class="cat-score">80</h3>
+            <h3 class="divider">/</h3>
+            <h3 class="poss-score">100</h3>
+          </div>
+        </div>
+
+        <div class="categories yellow">
+          <img src="./assets/images/icon-memory.svg" alt="">
+          <h3 class="cat">Memory</h3>
+          <div class="score-container">
+            <h3 class="cat-score">92</h3>
+            <h3 class="divider">/</h3>
+            <h3 class="poss-score">100</h3>
+          </div>
+        </div>
+
+        <div class="categories green">
+          <img src="./assets/images/icon-verbal.svg" alt="">
+          <h3 class="cat">Verbal</h3>
+          <div class="score-container">
+            <h3 class="cat-score">61</h3>
+            <h3 class="divider">/</h3>
+            <h3 class="poss-score">100</h3>
+          </div>
+        </div>
+
+        <div class="categories blue">
+          <img src="./assets/images/icon-visual.svg" alt="">
+          <h3 class="cat">Visual</h3>
+          <div class="score-container">
+            <h3 class="cat-score">72</h3>
+            <h3 class="divider">/</h3>
+            <h3 class="poss-score">100</h3>
+          </div>
+        </div>
+
+        <button type="submit">Continue</button>
+
+      </div>
+    </section>
+    
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Erik Aakre</a>.
+  </footer>
+</body>
+</html>
