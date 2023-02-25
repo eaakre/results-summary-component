@@ -88,6 +88,7 @@ p {
 
 h3 {
     font-size: medium;
+    margin: 0 .25em;
 }
 .title {
     width: 100%;
@@ -135,6 +136,7 @@ h3 {
 
 .score-container {
     display: flex;
+    min-width: 75px;
 }
 
 button {
