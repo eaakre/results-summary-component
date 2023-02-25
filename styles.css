@@ -183,4 +183,13 @@ footer {
     p {
         font-size: 12px;
     }
+
+    .categories {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: .45em;
+        padding: .45em .75em;
+        border-radius: 5px;
+    }
 }
